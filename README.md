@@ -1,7 +1,7 @@
 # Projeto de Reconhecimento de Entidades Nomeadas
 O objetivo deste projeto é desenvolver uma aplicação que identifica e extrai automaticamente entidades específicas contidas num texto, como pessoas, locais e organizações. Para isso foi feito *fine-tuning* do modelo BERTimbau para a tarefa de *Named Entity Recognition* (NER) usando um *dataset* criado com informações consolidadas de diversos arquivos em português.
 
-## Dados Utilizados
+## Dataset
 O dataset usado para o treinamento pode ser acessado aqui: https://huggingface.co/datasets/lfcc/portuguese_ner .
 
 **Variáveis**:
@@ -22,7 +22,7 @@ O dataset usado para o treinamento pode ser acessado aqui: https://huggingface.c
 9. **B-Profissao** representa o *token* inicial para profissões
 10. **I-Profissao** representa o *token* intermediário para profissões
 
-## Bibliotecas Usadas
+## Bibliotecas
 - `datasets`: Carregamento e manipulação de datasets.
 - `transformers`: Uso e fine-tuning de modelos pré-treinados.
 - `accelerate`: Treinamento eficiente de modelos.
