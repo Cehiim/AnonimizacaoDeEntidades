@@ -58,4 +58,4 @@ Hiperparâmetros de *fine-tuning*:
 ## Aplicação
 ![image](https://github.com/user-attachments/assets/7ae8ec78-2e55-493e-ad08-f938b66b5447)
 
-* Vídeo de apresentação: 
+* Vídeo de apresentação: https://youtu.be/VeB7tFJalSY
